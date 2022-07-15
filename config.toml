@@ -11,6 +11,7 @@ theme = "hugo-hero-theme"
     
 [params]
   google_analytics_id=""
+  custom_css = ["css/custom.css"]
 
   [params.logo]
     mobile = "images/logo-mobile.svg"
@@ -39,18 +40,18 @@ theme = "hugo-hero-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Collaboration+Engagement"
+    name = "Collaboration & Engagement"
     url = "/collaboration+engagement/"
     weight = 2
 
 [[menu.main]]
-    name = "Work"
+    name = "Performance"
     url = "/work/"
     weight = 3
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "About / Contact"
+    url = "/about_contact/"
     weight = 4
 
 [permalinks]
