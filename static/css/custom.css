@@ -1,9 +1,9 @@
+body {
+    color: #02FF00;
+}
 
-
-.about-para {
-    color: red;
-    font-size: 10px;
-    font-weight: bold;
+.category-intro {
+  color: black;
 }
 
 .work-title-container {
