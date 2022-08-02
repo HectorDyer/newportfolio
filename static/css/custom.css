@@ -23,6 +23,16 @@ body {
     padding-top: 60px; 
 }
 
+/* .page-work-single .work-image img {
+
+} */
+
+.page-work-single .masonry {
+  /* Masonry container */
+  column-count: 1;
+  column-gap: 1em;
+ }
+
 .hero-image {
     background-size: cover;
     background-repeat: no-repeat;
