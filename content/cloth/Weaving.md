@@ -2,7 +2,7 @@
 title: 'Weaving'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 3
+weight: 2
 heroHeading: 'Weaving'
 heroBackground: 'https://source.unsplash.com/tjX_sniNzgQ/1600x400'
 thumbnail: 'https://source.unsplash.com/tjX_sniNzgQ/400x300'
