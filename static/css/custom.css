@@ -1,6 +1,3 @@
-body {
-    /* color: #02FF00; */
-}
 
 .category-intro {
   width: 50%;
@@ -21,11 +18,8 @@ body {
     height: 250px;
     position: relative;
     padding-top: 60px; 
-}
+} 
 
-/* .page-work-single .work-image img {
-
-} */
 
 .page-work-single .masonry {
   /* Masonry container */
