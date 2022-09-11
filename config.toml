@@ -40,8 +40,8 @@ theme = "hugo-hero-theme"
     weight = 1
 
 [[menu.main]]
-    name = "Collaboration & Engagement"
-    url = "/collaboration+engagement/"
+    name = "Digital + Design"
+    url = "/digital+design/"
     weight = 2
 
 [[menu.main]]

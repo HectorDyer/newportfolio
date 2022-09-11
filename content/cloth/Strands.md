@@ -6,8 +6,7 @@ weight: 1
 heroHeading: 'Strands'
 heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
 thumbnail: 'https://source.unsplash.com/iqGtaQnk3VM/600x400'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+images: ['']
 ---
 
 These woven pieces are in response to my research around Cranial Sacral Therapy and fascia - the interconnecting tissue under the skin which allows bones, muscles and fibres to move. The fascia moves on its own accord, like a matrix of the nervous system. It is also the site where stress, trauma and tension gets stored within the body. 

@@ -6,8 +6,7 @@ weight: 3
 heroHeading: 'Systemic'
 heroBackground: 'work/work1.jpg'
 thumbnail: 'work/work1-thumbnail.jpg'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+images: ['']
 ---
 
 I am interested in medical history, how our bodies can become viewed or compared to machines and the consequences of this. Disassembling and reassembling the body, looking at different methods of healing are my main focuses at the moment.

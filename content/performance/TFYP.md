@@ -6,8 +6,7 @@ weight: 4
 heroHeading: 'Thank You For Your Patience'
 heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
 thumbnail: 'https://source.unsplash.com/iqGtaQnk3VM/600x400'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+images: ['']
 ---
 
 Produced by Hackney Showroom, directed by Sam Curtis Lindsay, with dramaturgical support from Nina Lyndon. This performance is currently being redeveloped. It explores how we communicate to the future and the legacies we are leaving behind.

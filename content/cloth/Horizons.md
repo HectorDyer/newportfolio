@@ -6,8 +6,7 @@ weight: 5
 heroHeading: 'Horizons'
 heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
 thumbnail: 'https://source.unsplash.com/iqGtaQnk3VM/600x400'
-images: ['https://source.unsplash.com/random/400x600/?nature', 
-'https://source.unsplash.com/random/400x300/?travel','https://source.unsplash.com/random/400x300/?architecture','https://source.unsplash.com/random/400x600/?buildings','https://source.unsplash.com/random/400x300/?city','https://source.unsplash.com/random/400x600/?business']
+images: ['']
 ---
 
 This series was commissioned for Splitting the Atom exhibition at Contemporary Arts Centre in Vilnius, Lithuania. I used natural dyeing and cyanotype techniques to create cloth that will gradually change colour over time. The works respond to the planned decommissioning of the Ignalina Power Plant, which the town was originally built around. 
