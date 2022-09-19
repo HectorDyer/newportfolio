@@ -13,6 +13,9 @@ theme = "hugo-hero-theme"
   google_analytics_id=""
   custom_css = ["css/custom.css"]
 
+  [params.site_name]
+    value = ["Hector", "Dyan"]
+
   [params.logo]
     mobile = "images/logo-mobile.svg"
     mobile_height = "36px"
@@ -57,3 +60,7 @@ theme = "hugo-hero-theme"
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
+
+
+[markup.goldmark.renderer]
+  unsafe = true
