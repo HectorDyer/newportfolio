@@ -1,0 +1,21 @@
+<div class='header header-absolute'>
+  <div class="container">
+    <div class="logo" style="font-size:1.2rem ;">
+      
+      <a style="text-decoration: none;" href="{{ .Site.BaseURL }}">
+        <div style="color: black; font-weight: 600;  height:{{ .Site.Params.logo.desktop_height }}; width:{{ .Site.Params.logo.mobile_width }};" />
+        Hector<span style="color: blue;">Dyer</span></div>
+      </a>
+
+    </div>
+
+    <div class="logo-mobile">
+      <a style="text-decoration: none;" href="{{ .Site.BaseURL }}">
+        <div style="color: black; font-weight: 600;  height:{{ .Site.Params.logo.desktop_height }}; width:{{ .Site.Params.logo.mobile_width }};" />
+        Hector<span style="color: blue;">Dyer</span></div>
+      </a>
+    </div>
+    {{ partial "main-menu.html" . }}
+    {{ partial "hamburger.html" . }}
+  </div>
+</div>
