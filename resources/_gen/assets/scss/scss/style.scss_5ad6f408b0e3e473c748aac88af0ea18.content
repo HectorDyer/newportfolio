@@ -1,4 +1,62 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700");
+.home-bg-div {
+  background-image: url(/images/homepage/do-us-a-solid-collage.jpg);
+  background-position: top 60px center;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  padding-block-start: 1rem; }
+
+.work.work-summary div {
+  overflow: hidden; }
+  @media (max-width: 775px) {
+    .work.work-summary div {
+      margin: auto; } }
+  .work.work-summary div a img {
+    width: 500px;
+    height: 380px;
+    object-fit: cover; }
+    @media (max-width: 1300px) {
+      .work.work-summary div a img {
+        width: 400px;
+        height: 250px;
+        object-fit: cover; } }
+    @media (max-width: 980px) {
+      .work.work-summary div a img {
+        width: 300px;
+        height: 250px;
+        object-fit: cover; } }
+    @media (max-width: 775px) {
+      .work.work-summary div a img {
+        max-width: 500px;
+        width: 100%;
+        min-height: 380px;
+        object-fit: cover; } }
+@media (max-width: 800px) {
+  .remove-margin-md {
+    margin: 0 !important; } }
+
+@media (max-width: 800px) {
+  .image-gallery {
+    width: 100vw; } }
+
+.image-gallery .image-slide {
+  height: calc(100vh - 15px);
+  display: flex; }
+  @media (max-width: 800px) {
+    .image-gallery .image-slide {
+      flex-direction: column; } }
+  .image-gallery .image-slide img {
+    width: 100%; }
+
+.left-panel-content {
+  position: absolute;
+  width: 30%;
+  background: #fff;
+  height: 97%;
+  top: 0;
+  bottom: 0; }
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6118,11 +6176,11 @@ html {
     overflow: hidden; }
     .work-summary .work-image img {
       max-width: 100%;
-      height: auto; }
+      height: auto;
+      object-fit: cover; }
   .work-summary .work-content {
     flex: 1;
-    padding: 20px;
-    border-bottom: 2px solid #1c3ed3; }
+    padding: 20px; }
     .work-summary .work-content .work-title {
       font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.5rem; }

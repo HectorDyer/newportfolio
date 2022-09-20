@@ -1,0 +1,5 @@
+# disable theme when not using submodules
+themes
+
+
+.hugo_build.lock
