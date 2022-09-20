@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 3
 heroHeading: 'No Time to Waste'
-heroBackground: 'https://source.unsplash.com/iqGtaQnk3VM/1600x400'
-thumbnail: 'https://source.unsplash.com/iqGtaQnk3VM/600x400'
+heroBackground: 'performance/no-time-to-waste/waste.jpg'
+thumbnail: 'performance/no-time-to-waste/waste.jpg'
 images: ['']
 ---
 

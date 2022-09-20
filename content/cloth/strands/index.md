@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 1
 heroHeading: 'Strands'
-heroBackground: '/images/cloth/architecture.jpg'
-thumbnail: '/images/cloth/architecture.jpg'
+heroBackground: '/cloth/strands/strand.jpg'
+thumbnail: '/cloth/strands/strand.jpg'
 images: ['']
 ---
 

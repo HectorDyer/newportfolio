@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 5
 heroHeading: 'Horizons'
-heroBackground: '/images/cloth/architecture.jpg'
-thumbnail: '/images/cloth/architecture.jpg'
+heroBackground: '/cloth/horizons/hor1.jpg'
+thumbnail: '/cloth/horizons/hor1.jpg'
 images: ['']
 ---
 

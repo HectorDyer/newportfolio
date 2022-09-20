@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 6
 heroHeading: 'Cyborg Dreams'
-heroBackground: '/digital+design/seads/sead.jpg'
-thumbnail: '/digital+design/seads/sead.jpg'
+heroBackground: '/digital+design/cyborg-dreams/cyborg.jpg'
+thumbnail: '/digital+design/cyborg-dreams/cyborg.jpg'
 images: ['']
 ---
 

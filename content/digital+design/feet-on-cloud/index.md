@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 4
 heroHeading: 'Feet on Cloud'
-heroBackground: '/digital+design/triptych/trip.jpg'
-thumbnail: '/digital+design/triptych/trip.jpg'
+heroBackground: '/digital+design/feet-on-cloud/foc.png'
+thumbnail: '/digital+design/feet-on-cloud/foc.png'
 images: ['']
 ---
 

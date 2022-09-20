@@ -14,7 +14,7 @@ theme = "hugo-hero-theme"
   custom_css = ["css/custom.css"]
 
   [params.site_name]
-    value = ["Hector", "Dyan"]
+    value = ["Hector", "Dyer"]
 
   [params.logo]
     mobile = "images/logo-mobile.svg"

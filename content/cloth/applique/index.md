@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 4
 heroHeading: 'Appliqué'
-heroBackground: '/images/cloth/architecture.jpg'
-thumbnail: '/images/cloth/architecture.jpg'
+heroBackground: '/cloth/applique/app1.jpg'
+thumbnail: '/cloth/applique/app1.jpg'
 images: []
 ---
 

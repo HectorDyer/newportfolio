@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 3
 heroHeading: 'Systemic'
-heroBackground: '/images/cloth/architecture.jpg'
-thumbnail: '/images/cloth/architecture.jpg'
+heroBackground: 'cloth/systemic/system.jpg'
+thumbnail: 'cloth/systemic/system.jpg'
 images: ['']
 ---
 

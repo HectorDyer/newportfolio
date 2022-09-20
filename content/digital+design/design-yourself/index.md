@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 3
 heroHeading: 'Design Yourself'
-heroBackground: '/digital+design/triptych/trip.jpg'
-thumbnail: '/digital+design/triptych/trip.jpg'
+heroBackground: '/digital+design/design-yourself/dy4.png'
+thumbnail: '/digital+design/design-yourself/dy4.png'
 images: ['']
 ---
 

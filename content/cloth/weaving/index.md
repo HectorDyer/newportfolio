@@ -4,8 +4,8 @@ date: 2018-11-18T12:33:46+10:00
 draft: false
 weight: 2
 heroHeading: 'Weaving'
-heroBackground: '/images/cloth/architecture.jpg'
-thumbnail: '/images/cloth/architecture.jpg'
+heroBackground: '/cloth/weaving/weaving2.jpg'
+thumbnail: '/cloth/weaving/weaving2.jpg'
 images: ['']
 ---
 
