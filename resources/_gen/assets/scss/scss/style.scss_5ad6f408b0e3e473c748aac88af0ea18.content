@@ -70,7 +70,7 @@
   display: flex; }
   @media (max-width: 800px) {
     .image-gallery .image-slide {
-      margin-top: 0;
+      margin-top: 0 !important;
       flex-direction: column;
       padding-block-start: 0; } }
   .image-gallery .image-slide img {

@@ -27,6 +27,15 @@
   
   </div>
 </div>
+
+  <script>
+    const singleContent = document.querySelector('.single-content')
+    const mgTop = document.querySelector('.image-slide')
+    const root = document.querySelector(':root')
+  
+    mgTop.style.marginTop = `${singleContent.clientHeight}px `
+  </script>
+  
 {{ end }}
 {{ define "footer_js" }}
 {{ $library := resources.Get "js/libs/library.js" }}
@@ -37,4 +46,6 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
+
+
 {{ end }}
