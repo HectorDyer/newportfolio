@@ -14,6 +14,10 @@
     </div>
     <div class="image-gallery">
       <!-- content -->
+      <div class="container single-content">
+        <h1>{{.Params.title}}</h1>
+        {{.Content}}
+      </div>
       <div class="image-slide">
         {{range .Resources.ByType "image" }}
         <img draggable="false" src="{{.}}" alt="{{.}} samples">
