@@ -1,4 +1,18 @@
 // home page background
+:root{
+    --gallery-gutter: 15px;
+}
+
+.logo{
+    a{
+        div{
+            span{
+                margin-left: 6px;
+            }
+        }
+    }
+}
+
 .home-bg-div{
     background-image: url(/images/homepage/do-us-a-solid-collage.jpg);
     background-position: top 60px center;
@@ -53,13 +67,13 @@
     }
     .image-slide{
         height: calc(100vh - 15px);
-        // overflow-x: scroll;
+        padding-block-start: 60px;
         display: flex;
         @media (max-width:800px) {
             flex-direction: column;
         }
         img{
-            // width: 100vw;
+            padding: var(--gallery-gutter);
             width: 100%;
         }
     }

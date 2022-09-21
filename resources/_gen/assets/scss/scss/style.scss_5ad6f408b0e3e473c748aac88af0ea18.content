@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400|Open+Sans:400,700");
+:root {
+  --gallery-gutter: 15px; }
+
+.logo a div span {
+  margin-left: 6px; }
+
 .home-bg-div {
   background-image: url(/images/homepage/do-us-a-solid-collage.jpg);
   background-position: top 60px center;
@@ -42,11 +48,13 @@
 
 .image-gallery .image-slide {
   height: calc(100vh - 15px);
+  padding-block-start: 60px;
   display: flex; }
   @media (max-width: 800px) {
     .image-gallery .image-slide {
       flex-direction: column; } }
   .image-gallery .image-slide img {
+    padding: var(--gallery-gutter);
     width: 100%; }
 
 .left-panel-content {
@@ -5505,7 +5513,7 @@ ol {
     justify-content: space-between;
     align-items: center; }
   .header.header-absolute {
-    position: absolute;
+    position: fixed;
     z-index: 100;
     width: 100%; }
 
