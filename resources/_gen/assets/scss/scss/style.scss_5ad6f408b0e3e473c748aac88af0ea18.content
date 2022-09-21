@@ -6192,6 +6192,8 @@ html {
     .work-summary .work-content .work-title {
       font-family: "Lato", "Helvetica Neue", Arial, sans-serif, -apple-system;
       font-size: 1.3rem; }
+      .work-summary .work-content .work-title a {
+        color: #000; }
     .work-summary .work-content p {
       color: #666;
       font-size: 0.9rem; }
