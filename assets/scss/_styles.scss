@@ -82,7 +82,7 @@
         left: 0;
         right: 0;
         // bottom: 0;
-        padding:2rem 2rem;
+        padding:0.5rem 2rem;
         @media (max-width:800px) {
             position: unset;
             padding:2rem 2rem 0 2rem;
@@ -90,9 +90,9 @@
     }
     .image-slide{
         padding-block-start: 60px;
-        margin-top: 2rem;
+        margin-top: 0.5rem;
         overflow-x: scroll;
-        height: calc(90vh - 15px);
+        height: calc(87vh - 15px);
         display: flex;
         @media (max-width:800px) {
             margin-top: 0 !important;
