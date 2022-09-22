@@ -22,7 +22,7 @@
 
 </head>
 
-<body class='page {{ block "body_classes" . }}{{ end }}'>
+<body class='page {{if .IsPage}} overflowX-hidden {{end}} {{ block "body_classes" . }}{{ end }}'>
   {{ partial "main-menu-mobile.html" . }}
   <div id="wrapper" class="wrapper">
     {{ partial "header.html" . }}

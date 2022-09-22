@@ -14,27 +14,22 @@
     </div>
     <div class="image-gallery">
       <!-- content -->
-      <div class="container single-content">
-        <h1>{{.Params.title}}</h1>
-        {{.Content}}
-      </div>
       <div class="image-slide">
         {{range .Resources.ByType "image" }}
         <img draggable="false" src="{{.}}" alt="{{.}} samples">
         {{end}}
       </div> 
+      <div class="container single-content">
+        <h1>{{.Params.title}}</h1>
+        {{.Content}}
+      </div>
+      <!-- <div class="single-desc">
+
+      </div> -->
     </div>
   
   </div>
 </div>
-
-  <script>
-    const singleContent = document.querySelector('.single-content')
-    const mgTop = document.querySelector('.image-slide')
-    const root = document.querySelector(':root')
-  
-    mgTop.style.marginTop = `${singleContent.clientHeight}px `
-  </script>
   
 {{ end }}
 {{ define "footer_js" }}
