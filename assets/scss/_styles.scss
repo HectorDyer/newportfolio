@@ -1,4 +1,18 @@
 // home page background
+:root{
+    --gallery-gutter: 15px;
+}
+
+.logo{
+    a{
+        div{
+            span{
+                margin-left: 6px;
+            }
+        }
+    }
+}
+
 .home-bg-div{
     background-image: url(/images/homepage/do-us-a-solid-collage.jpg);
     background-position: top 60px center;
@@ -6,6 +20,13 @@
     height: 100vh;
     object-fit: cover;
     padding-block-start: 1rem;
+}
+
+.col-12.col-md-6.mb-2.pb-2:nth-child(even){
+    .work.work-summary div a img{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
 }
 
 .work.work-summary {
@@ -51,15 +72,34 @@
     @media (max-width:800px) {
         width: 100vw;
     }
+    .single-content{
+        h1{
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        position: fixed;
+        left: 0;
+        right: 0;
+        margin-top: 4rem;
+        padding:2rem 2rem;
+        @media (max-width:800px) {
+            position: unset;
+            padding:2rem 2rem 0 2rem;
+        }
+    }
     .image-slide{
-        height: calc(100vh - 15px);
-        // overflow-x: scroll;
+        padding-block-start: 60px;
+        margin-top: 14.7rem;
+        // height: 400px ;
+        height: calc(68vh - 15px);
         display: flex;
         @media (max-width:800px) {
+            margin-top: 0 !important;
             flex-direction: column;
+            padding-block-start: 0;
         }
         img{
-            // width: 100vw;
+            padding: var(--gallery-gutter);
             width: 100%;
         }
     }
