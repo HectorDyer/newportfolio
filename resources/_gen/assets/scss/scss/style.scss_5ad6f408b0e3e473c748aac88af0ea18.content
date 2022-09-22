@@ -2,6 +2,9 @@
 :root {
   --gallery-gutter: 15px; }
 
+.overflowX-hidden {
+  overflow-x: hidden; }
+
 .logo a div span {
   margin-left: 6px; }
 
@@ -12,10 +15,6 @@
   height: 100vh;
   object-fit: cover;
   padding-block-start: 1rem; }
-
-.col-12.col-md-6.mb-2.pb-2:nth-child(even) .work.work-summary div a img {
-  padding-top: 1.5rem;
-  padding-bottom: 2rem; }
 
 .work.work-summary div {
   overflow: hidden; }
@@ -51,10 +50,8 @@
     width: 100vw; } }
 
 .image-gallery .single-content {
-  position: fixed;
   left: 0;
   right: 0;
-  margin-top: 4rem;
   padding: 2rem 2rem; }
   .image-gallery .single-content h1 {
     color: var(--primary);
@@ -65,8 +62,9 @@
       padding: 2rem 2rem 0 2rem; } }
 .image-gallery .image-slide {
   padding-block-start: 60px;
-  margin-top: 14.7rem;
-  height: calc(68vh - 15px);
+  margin-top: 2rem;
+  overflow-x: scroll;
+  height: calc(90vh - 15px);
   display: flex; }
   @media (max-width: 800px) {
     .image-gallery .image-slide {
