@@ -2,7 +2,7 @@
 title: 'Cyborg Dreams'
 date: 2018-11-18T12:33:46+10:00
 draft: false
-weight: 6
+weight: 7
 heroHeading: 'Cyborg Dreams'
 heroBackground: '/digital+design/cyborg-dreams/cyborg.jpg'
 thumbnail: '/digital+design/cyborg-dreams/cyborg.jpg'

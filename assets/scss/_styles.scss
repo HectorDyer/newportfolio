@@ -78,6 +78,7 @@
             color: var(--primary);
             margin-bottom: 1rem;
         }
+
         // position: fixed;
         left: 0;
         right: 0;
@@ -113,4 +114,18 @@
     height: 97%;
     top: 0;
     bottom:0;
+}
+
+.workpage-list{
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    h6{
+        // font-size: 24px;
+        color: var(--primary);
+        padding-bottom: 5px;
+    }
+    a{
+        color: black;
+        text-decoration: underline;
+    }
 }
