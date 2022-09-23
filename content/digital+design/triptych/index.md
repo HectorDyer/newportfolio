@@ -8,11 +8,9 @@ heroBackground: '/digital+design/triptych/trip.jpg'
 thumbnail: '/digital+design/triptych/trip.jpg'
 images: ['']
 ---
+2020, Vaults Festival + Terra Nexus, Proposition Studios
 
 Made in collaboration with Freyja Sewell and Louis Rutherford, Triptych looks to a future where humans, technology and nature come together. 
 We view Triptych as a way to imagine sustainability and empowerment, presenting practical steps for everyone to take part. 
 We believe in knowledge sharing, re-use and the healing power that nature can play in our mental and physical health. Typically we have worked across installation and performances.
-
-Vaults Festival - February 2020
-Terra Nexus, Proposition Studios - October 2020
 

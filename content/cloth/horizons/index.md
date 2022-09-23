@@ -8,8 +8,11 @@ heroBackground: '/cloth/horizons/hor1.jpg'
 thumbnail: '/cloth/horizons/hor1.jpg'
 images: ['']
 ---
+2020, Contemporary Arts Centre Vilnius, Lithuania
 
-This series was commissioned for Splitting the Atom exhibition at Contemporary Arts Centre in Vilnius, Lithuania. I used natural dyeing and cyanotype techniques to create cloth that will gradually change colour over time. The works respond to the planned decommissioning of the Ignalina Power Plant, which the town was originally built around. 
+This series was commissioned for 'Splitting the Atom', curated by Ele Carpenter. I used natural dyeing and cyanotype techniques to create cloth that will gradually change colour over time. The works respond to the planned decommissioning of the Ignalina Power Plant, which the town was originally built around. 
+
+Embroidered text:
 
 "rising on the horizon, a gleaming tower above our city. 
 'how long will it last?' ask young tongues. 

@@ -8,6 +8,7 @@ heroBackground: 'cloth/systemic/system.jpg'
 thumbnail: 'cloth/systemic/system.jpg'
 images: ['']
 ---
+2020 - ongoing
 
 I am interested in medical history, how our bodies can become viewed or compared to machines and the consequences of this. Disassembling and reassembling the body, looking at different methods of healing are my main focuses at the moment.
 

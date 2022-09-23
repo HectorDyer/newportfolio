@@ -8,9 +8,8 @@ heroBackground: '/digital+design/cyborg-dreams/cyborg.jpg'
 thumbnail: '/digital+design/cyborg-dreams/cyborg.jpg'
 images: ['']
 ---
+2018, Barbican Centre and Old Street Roundabout
 
 Working with digital artist Antonio Roberts over a number of months, I created a series of self-portraits working with glitch and projection mapping techniques. The series was exhibited at the Barbican Centre and the films were subsequently displayed on Old Street Roundabout in the Summer.
-Barbican Centre, January - April 2018
-Old Street Roundabout, May - July 2018
 
 
