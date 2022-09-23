@@ -10,7 +10,6 @@
   }
 
 .work-title-container {
-    /* background-color: #02FF00; */
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -31,7 +30,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    /* background-color: #02FF00; */
+    background-color: white;
     height: 100px;
     position: relative;
     padding-top: 130px; }
