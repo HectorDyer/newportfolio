@@ -50,18 +50,21 @@
     width: 100vw; } }
 
 .image-gallery .single-content {
+  padding-right: 100px;
   left: 0;
   right: 0;
-  padding: 0.5rem 2rem; }
+  padding-top: 6rem; }
   .image-gallery .single-content h1 {
     color: var(--primary);
     margin-bottom: 1rem; }
+  .image-gallery .single-content p {
+    font-size: 14px; }
   @media (max-width: 800px) {
     .image-gallery .single-content {
       position: unset;
-      padding: 2rem 2rem 0 2rem; } }
+      padding: 5rem 2rem 0 2rem; } }
 .image-gallery .image-slide {
-  padding-block-start: 60px;
+  padding-block-start: 30px;
   margin-top: 0.5rem;
   overflow-x: scroll;
   height: calc(87vh - 15px);
@@ -84,13 +87,15 @@
   bottom: 0; }
 
 .workpage-list {
-  padding-top: 2rem;
+  padding-top: 1.5rem;
+  padding-left: 5.5rem;
   padding-bottom: 1.5rem; }
   .workpage-list h6 {
+    font-size: 1.5rem;
     color: var(--primary);
     padding-bottom: 5px; }
   .workpage-list a {
-    color: black;
+    color: #222;
     text-decoration: underline; }
 
 :root {
@@ -101,7 +106,7 @@
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
-  --green: #28a745;
+  --green: #00FF00;
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #ffffff;
@@ -109,7 +114,7 @@
   --gray-dark: #343a40;
   --primary: #00FF00;
   --secondary: #43454d;
-  --success: #28a745;
+  --success: #00FF00;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
@@ -1026,7 +1031,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  border-top: 1px solid rgba(51, 51, 51, 0.1); }
 
 small,
 .small {
@@ -1098,10 +1103,10 @@ mark,
     border-bottom-width: 2px; }
 
 .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05); }
+  background-color: rgba(51, 51, 51, 0.05); }
 
 .table-hover tbody tr:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: rgba(51, 51, 51, 0.075); }
 
 .table-primary,
 .table-primary > th,
@@ -1128,13 +1133,13 @@ mark,
 .table-success,
 .table-success > th,
 .table-success > td {
-  background-color: #c3e6cb; }
+  background-color: #b8ffb8; }
 
 .table-hover .table-success:hover {
-  background-color: #b1dfbb; }
+  background-color: #9fff9f; }
   .table-hover .table-success:hover > td,
   .table-hover .table-success:hover > th {
-    background-color: #b1dfbb; }
+    background-color: #9fff9f; }
 
 .table-info,
 .table-info > th,
@@ -1194,13 +1199,13 @@ mark,
 .table-active,
 .table-active > th,
 .table-active > td {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: rgba(51, 51, 51, 0.075); }
 
 .table-hover .table-active:hover {
-  background-color: rgba(0, 0, 0, 0.075); }
+  background-color: rgba(38, 38, 38, 0.075); }
   .table-hover .table-active:hover > td,
   .table-hover .table-active:hover > th {
-    background-color: rgba(0, 0, 0, 0.075); }
+    background-color: rgba(38, 38, 38, 0.075); }
 
 .table .thead-dark th {
   color: #ffffff;
@@ -1310,12 +1315,12 @@ button.bg-secondary:focus {
   background-color: #2b2d32 !important; }
 
 .bg-success {
-  background-color: #28a745 !important; }
+  background-color: #00FF00 !important; }
 
 a.bg-success:hover, a.bg-success:focus,
 button.bg-success:hover,
 button.bg-success:focus {
-  background-color: #1e7e34 !important; }
+  background-color: #00cc00 !important; }
 
 .bg-info {
   background-color: #17a2b8 !important; }
@@ -1400,7 +1405,7 @@ button.bg-dark:focus {
   border-color: #43454d !important; }
 
 .border-success {
-  border-color: #28a745 !important; }
+  border-color: #00FF00 !important; }
 
 .border-info {
   border-color: #17a2b8 !important; }
@@ -5386,10 +5391,10 @@ a.text-secondary:hover, a.text-secondary:focus {
   color: #2b2d32 !important; }
 
 .text-success {
-  color: #28a745 !important; }
+  color: #00FF00 !important; }
 
 a.text-success:hover, a.text-success:focus {
-  color: #1e7e34 !important; }
+  color: #00cc00 !important; }
 
 .text-info {
   color: #17a2b8 !important; }
@@ -5721,7 +5726,7 @@ ol {
 
 .main-menu-mobile {
   position: fixed;
-  background: #00FF00;
+  background: #ffffff;
   top: 0;
   left: 0;
   width: 100%;

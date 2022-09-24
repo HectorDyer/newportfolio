@@ -14,14 +14,17 @@
     </div>
     <div class="image-gallery">
       <!-- content -->
-      <div class="image-slide">
-        {{range .Resources.ByType "image" }}
-        <img draggable="false" src="{{.}}" alt="{{.}} samples">
-        {{end}}
-      </div> 
+      
       <div class="container single-content">
         <h1>{{.Params.title}}</h1>
         {{.Content}}
+      </div>
+        <div class="image-slide">
+          {{range .Resources.ByType "image" }}
+          <img draggable="false" src="{{.}}" alt="{{.}} samples">
+          {{end}}
+        </div> 
+
         <div class="workpage-list">
           <h6>Digital + Design</h6>
           <ul>
@@ -33,7 +36,7 @@
             <li><a href="/digital+design/cyborg-dreams/">Cyborg Dreams</a></li>
           </ul>
         </div>
-      </div>
+      
       <!-- <div class="single-desc">
 
       </div> -->

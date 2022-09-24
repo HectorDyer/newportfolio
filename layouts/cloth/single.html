@@ -13,25 +13,32 @@
       </div>
     </div>
     <div class="image-gallery">
-      <div class="image-slide">
-        {{range .Resources.ByType "image" }}
-        <img draggable="false" src="{{.}}" alt="{{.}} samples">
-        {{end}}
-      </div> 
+      <!-- content -->
+      
       <div class="container single-content">
         <h1>{{.Params.title}}</h1>
         {{.Content}}
+      </div>
+        <div class="image-slide">
+          {{range .Resources.ByType "image" }}
+          <img draggable="false" src="{{.}}" alt="{{.}} samples">
+          {{end}}
+        </div> 
+
         <div class="workpage-list">
-          <h6>Cloth</h6>
+          <h6>Digital + Design</h6>
           <ul>
             <li><a href="/cloth/strands/">Strands</a></li>
             <li><a href="/cloth/weaving/">Weaving</a></li>
             <li><a href="/cloth/systemic/">Systemic</a></li>
-            <li><a href="/cloth/applique">Appliqué</a></li>
+            <li><a href="/cloth/applique/">Appliqué</a></li>
             <li><a href="/cloth/horizons/">Horizons</a></li>
           </ul>
         </div>
-      </div>
+      
+      <!-- <div class="single-desc">
+
+      </div> -->
     </div>
   
   </div>
